@@ -1,29 +1,22 @@
 <template>
   <div id="app">
-    <InvoiceHead />
-    <FoldHead title="发票详情"/>
-    <InvoiceDash />
+    <Home />
   </div>
 </template>
 
 <script>
-import InvoiceHead from './components/InvoiceHead'
-import InvoiceDash from './components/InvoiceDash'
-import FoldHead from './components/FoldHead'
-
+import Home from "./pages/Home"
 export default {
-  name: 'app',
+  name: "App",
   components: {
-    InvoiceHead,
-    InvoiceDash,
-    FoldHead
+    Home,
   }
 }
 </script>
 
 <style lang="stylus" scoped>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

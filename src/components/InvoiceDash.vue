@@ -1,15 +1,14 @@
 <template>
   <div class="dash-wrapper">
-    <div class="dot left"></div>
-    <div class="dash-line">
-    </div>
-    <div class="dot right"></div>
+    <div class="dot left" />
+    <div class="dash-line" />
+    <div class="dot right" />
   </div>
 </template>
 
 <script>
 export default {
-  name: 'InvoiceDash',
+  name: "InvoiceDash",
 }
 </script>
 <style lang="stylus" scoped>

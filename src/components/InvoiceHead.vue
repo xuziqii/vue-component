@@ -1,19 +1,21 @@
 <template>
-    <div class="wrapper">
-      <div class="text">{{ text }}</div>
-      <div class="big">
-        <div class="small"></div>
-      </div>
+  <div class="wrapper">
+    <div class="text">
+      {{ title }}
     </div>
+    <div class="big">
+      <div class="small" />
+    </div>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'InvoiceHead',
+  name: "InvoiceHead",
   props: {
-    text: {
+    title: {
       type: String,
-      default: '增值税普通发票(电子)',
+      default: "",
     },
   },
 }
